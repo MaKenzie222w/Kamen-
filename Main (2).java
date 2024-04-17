@@ -3,7 +3,7 @@ class Main{
              System.out.println("kamen");
          }
          public static void summer(int temp) {
-                  if( temp > 50 ){
+                  if( temp > 60 ){ //changed temp
                           System.out.print(" * ");
                           temp-=1;
                           summer( temp );
